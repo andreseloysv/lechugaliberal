@@ -1,0 +1,221 @@
+root { 
+    display: block;
+}
+
+body{
+    background-color: #00A8FF;
+    overflow-y: hidden;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(http://www.lechugaliberal.com/imagenes/pattern-header-blue.gif);
+    font-family: 'Open Sans', sans-serif;
+}
+#banner{
+
+    width: 100%;
+    height: 74px;
+    background-color: rgb(250, 250, 210);
+
+}
+#banner_titulo{
+    background-image: url(../imagenes/tituloo.png);
+    width: 510px;
+    height: 90px;
+    z-index: 100;
+    margin-top: 15px;
+    position: absolute;  
+    margin-left: 10%;
+}
+#contenido{
+    background-color: #fff;
+    height: 450px;
+    width: 65%;
+    margin-left: 15%;
+    background-image: url(http://www.lechugaliberal.com/imagenes/pattern-header-blue.gif);
+
+}
+#contenido_error{
+    background-color: #FF4936;
+    color: #FFFFFF;
+    font-size: xx-large;
+    display: none;
+}
+#barra_busqueda{
+    padding-top: 50px;
+    padding-left: 20%;
+}
+#pagina{
+    background-color: #FFFFFF;
+    color: #000;
+    height: 600px;
+    width: 100%;
+    position: absolute;
+    background-image: url(http://www.lechugaliberal.com/imagenes/pattern-header-blue.gif);
+}
+#logo{
+    background-image: url(../imagenes/logoo.png);
+    width: 150px;
+    height: 151px;
+    float: right;
+    position: absolute;
+    margin-left: 75%;
+    background-repeat: no-repeat;
+
+}
+#foto{
+    background-image: url(../imagenes/foto_sombra.png);
+    width: 159px;
+    height: 153px;
+    margin-top: 5%;
+    margin-left: 5%;
+    background-repeat: no-repeat;
+    float:left;
+}
+#resultado{
+    float:left;
+    margin-top: 50px;
+    margin-left: 5%;
+    width: 60%;
+    color: #fff;
+    z-index: 10;
+    position: absolute;
+    margin-left: 240px;
+    width: 495px;
+}
+fieldset{
+    border-width:4px;
+    border-style:solid;
+    border-color: royalblue;
+    border-radius: 8px;
+}
+.compo_fielset label{
+    display: block;
+    float: left;
+    width: 150px;
+}
+.compo_fielset input{
+    width: 200px;
+}
+
+
+
+
+/*
+            menu principal de la pagina
+*/
+
+#menu{
+    float: left;
+    z-index: 400;
+    margin-top: -3px;
+    width: 100%;
+    background-color: rgb(23, 104, 206);
+    border-bottom-width: 2px;
+    border-bottom-color: rgb(53, 141, 190);
+    border-bottom-style: solid;
+}
+#button {
+    margin-left: 10%;
+    background: #2586d7;
+    padding: 0;
+    margin-top: 0;
+}
+#button li {
+    display: inline;
+}
+#button li a {
+    font-size:16px;
+    text-decoration: none;
+    float:left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #2175bc;
+    color: #fff;
+}
+#button li a:hover {
+    background-color: #2586d7;
+    margin-top:-2px;
+    padding-bottom:12px;
+}
+
+#enviar_formulario{
+    float: right;
+}
+.error{
+    color: white;
+    background-color: #F24533;
+    position: absolute;
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+#timer{
+    font-size: x-large;
+    color: #FFFFFF;
+    background-color: #01CFFF;
+}
+#buscar_usuario{
+    color: white;
+}
+#barra_mapa_del_sitio{
+    width: 100%;
+    height: 31px;
+    background-image: url(http://lechugaliberal.com/imagenes/green-grad-twitter.png);
+}
+#mapa_del_sitio{
+    margin-top: -16px;
+    width: 100%;
+    height: 200px;
+    background-image: url(http://www.lechugaliberal.com/imagenes/darkdenim3.png);
+}
+#footer{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+#texto_footer{
+    font-size: small;
+    margin-left: 10%;
+}
+
+
+#links_mapa_sitio {
+    margin-left: 10%;
+    background: rgba(255, 255, 255, 0);
+    padding: 0;
+    margin-top: 0;
+}
+#links_mapa_sitio li {
+    display: inline;
+}
+#links_mapa_sitio li a {
+    text-decoration: none;
+    float:left;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(255, 255, 255, 0);;
+    color: #fff;
+}
+#links_mapa_sitio li a:hover {
+    background-color: rgba(255, 255, 255, 0);;
+    padding-bottom:12px;
+}
+
+.compo_fielset .ui-button{
+    width: 20px;
+    height: 23px;
+    position: absolute;
+}
+.fondo_resultado{
+    position: absolute;
+    width: 495px;
+    height: 260px;
+    margin-left: 240px;
+    margin-top: 40px;
+    opacity: 0.4;
+    background-color: #023A81;
+    border-radius: 16px;
+}
